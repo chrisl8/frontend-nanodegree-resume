@@ -1,0 +1,4 @@
+The only resources I used to create this were:
+Udacity JavaScript Basics and Intro to jQuery classes.
+Mozilla Developer Network:
+Google Maps API Documentation: https://developer.mozilla.org/en-US/ https://developers.google.com/maps/documentation/javascript/examples/infowindow-simple

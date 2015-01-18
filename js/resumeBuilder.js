@@ -1,6 +1,6 @@
 // Udacity JavaScript Class
 var bio = {
-    "name": "Chris Lofland",
+    "name": "Chris L8",
     "role": "Unix System Administrator",
     "contacts": {
         "mobile": "650-555-5555",
@@ -27,12 +27,19 @@ var bio = {
         $("#header").append(formattedImage);
         var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
         $("#topContacts").append(formattedMobile);
+        $("#footerContacts").append(formattedMobile);
         var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
         $("#topContacts").append(formattedEmail);
+        $("#footerContacts").append(formattedEmail);
         var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
         $("#topContacts").append(formattedGithub);
+        $("#footerContacts").append(formattedGithub);
+        var formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
+        $("#topContacts").append(formattedTwitter);
+        $("#footerContacts").append(formattedTwitter);
         var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
         $("#topContacts").append(formattedLocation);
+        $("#footerContacts").append(formattedLocation);
         var formattedMessage = HTMLWelcomeMsg.replace("%data%", bio.welcomeMessage);
         $("#header").append(formattedMessage);
         if (bio.skills.length > 0) {
