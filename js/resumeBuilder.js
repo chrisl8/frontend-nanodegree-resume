@@ -46,7 +46,7 @@ var bio = {
             $("#header").append(HTMLskillsStart);
             for (var skill in bio.skills) {
                 var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
-                $("#header").append(formattedSkill);
+                $("#skills").append(formattedSkill);
             }
         }
     }
@@ -56,7 +56,7 @@ var education = {
     "schools": [
 {
     "name": "Pace University -- Pleasantville, NY",
-    "location": "Wichita, Kansas",
+    "location": "Wichita, KS",
     "degree": "Associates",
     "dates": "2006 - 2011",
     "majors": [
