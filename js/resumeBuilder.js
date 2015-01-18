@@ -86,6 +86,12 @@ var education = {
     "school": "Udacity",
     "date": "2015",
     "url": "https://www.udacity.com/course/ud804"
+},
+{
+    "title": "Intro to jQuery",
+    "school": "Udacity",
+    "date": "2015",
+    "url": "https://www.udacity.com/course/ud245"
 }
 ],
 display : function() {
@@ -154,7 +160,7 @@ var work = {
     "title": "Teacher",
     "location": "Moscow, Russia",
     "dates worked": "1994 to 1995",
-    "description": "Refurbished Point of Sale PC Unix hardware for Pizza Hut."
+    "description": "Taught English to 7th and 8th form students."
 }
 ],
 display : function() {
