@@ -117,6 +117,7 @@ function initializeMap() {
   written for bio, education, and work.
   */
   function locationFinder() {
+      var bio = control.getBio();
 
     // initializes an empty array
     var locations = [];
@@ -132,6 +133,7 @@ function initializeMap() {
 
     // iterates through work locations and appends each location to
     // the locations array
+    var work = control.getWork();
     for (var job in work.jobs) {
       locations.push(work.jobs[job].location);
     }
